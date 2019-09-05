@@ -1,0 +1,186 @@
+.__diff__nav__bar {
+  // background: white;
+  // color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.ease {
+      font-size: 14px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      // r
+      .logo {
+        padding: 5px !important;
+        transition: padding .25s ease;
+      }
+      img {
+        width: 30px !important;
+        // line-height: 50px;
+        transition: width .25s ease;
+      }
+      font-size: 13px !important;
+      background: white !important;
+      .top__most .social__links .social__icons {
+        font-size: 15px !important;
+      }
+      .top__most .social__links {
+        height: 25px !important;
+      }
+      .top__most .toll__free__ticker marquee {
+        line-height: 20px !important;
+      }
+      transition: font-size .25s ease, background .25s ease;
+    }
+.nav__bar {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: bottom;
+  font-family: Lato;
+  background: rgba(255, 255, 255, 0.5);
+  color: #292727;
+  /* background: blanchedalmond; */
+  position: fixed;
+  width: 100%;
+  transition: font-size .25s ease, background .25s ease;
+  .top__most {
+    padding: 0px 0px;
+    width: 100%;
+    color: white;
+    background: #ef6537;
+    .toll__free__ticker {
+      width: 90%;
+      margin: 0 auto;
+      display: inline-block;
+      vertical-align: middle;
+      >marquee {
+        width: 100%;
+        vertical-align: middle;
+        line-height: 30px;
+        // padding: 10px 0;
+        // line-height: 30px;
+        // background-color: rgba(0,0,0,.5);
+      }
+    }
+    .social__links {
+      width: 10%;
+      display: inline-block;
+      height: 30px;
+      .social__icons {
+        // padding: 10px 0px;
+        // line-height: 30px;
+        vertical-align: middle;
+        display: inline-block;
+        // height: 30px;
+        width: 25%;
+        font-size: 20px;
+        a {
+          padding: 0px;
+          &:hover {
+            color: black;
+          }
+        }
+        // height: 60px;
+        // margin: 2px;
+      }
+    }
+  }
+        .dropbtn {
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          text-transform: uppercase;
+          text-align: left;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 120px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          font-size: 12px;
+          color: #000;
+          border: none;
+            margin-top: 10px;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          color: #000;
+          padding: 7px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {color: #f4761a}
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+          // background-color: #3e8e41;
+        }
+    span {
+		padding: 10px 15px;
+    }
+    .active {
+    	color: #ef6537 !important;
+    	border-bottom: 2px solid #ccc;
+    	padding: 10px 20px;
+      font-weight: bold;
+    	&:hover {
+			text-decoration: none;
+			color: #ef6537
+    	}
+    }
+    a {
+    	text-decoration: none;
+        padding: 10px 20px;
+    	&:hover {
+			text-decoration: none;
+			color: #ef6537;
+    	}
+    }
+    .left__to__logo {
+    	width: 45%;
+    	text-align: right;
+    	display: inline-block;
+    }
+    .right__to__logo {
+		  width: 45%;
+    	text-align: left;
+    	display: inline-block;
+    }
+    .logo {
+    	display: inline-block;
+	    // position: absolute;
+	    padding: 20px;
+	    width: 10%;
+	    text-align: center;
+      transition: padding .25s ease;
+      a {
+        padding: 0px;
+      }
+	    /* margin: 0 auto; */
+	    a >img {
+	    	vertical-align:mi;
+	    	width: 60px;
+        transition: width .25s ease,line-height .25s ease;
+	    }
+    }
+}
+@media only screen and (max-width:1320px) {
+  .page-layout__viewport__header .menu__bar {
+    font-size: 14px;
+    .nav__bar a {
+      padding: 10px 15px;
+    }
+  }
+}

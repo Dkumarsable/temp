@@ -1,0 +1,202 @@
+.career__wrapper {
+	height: 100%;
+	.career__content {
+		// padding-top: 150px;
+		.desktop__heading {
+			padding-bottom: 20px;
+		}
+		.error-title {
+			color: red;
+		}
+		.career__desc {
+		    width: 60%;
+		    margin: 0 auto;
+		    text-align: center;
+		    font-size: 14px;
+		    // line-height: 35px;
+		    padding: 30px 30px 20px;
+		}
+		.career__info__wrapper {
+		    margin: 0 auto;
+		    background: #ef6537;
+		    // padding: 20px 50px;
+		    margin-top: 30px;
+		    /* width: 80%; */
+		    height: auto;
+		    font-size: 14px;
+		    /* line-height: 5vh; */
+		    .current___vacancies {
+		    	// back
+		    	background: url(http://www.alpexsolar.com/assets/elements/career_panel.jpg);
+		    	height: 100%;
+		    	background-position: center;
+		    	background-size: cover;
+		    	min-height: 400px;
+		    	position: relative;
+				z-index: 3;
+		    	li {
+		    		font-size: 14px;
+		    	}
+		    }
+		    .right_section{
+		    	width: 80%;
+		    	margin: 0 auto;
+		    	min-height: 400px;
+		    	padding: 30px 0;
+		    	position: relative;
+				z-index: 3;
+		    }
+		    .form-control {
+		    	// margin-top: 20px;
+		    	input {
+			    	font-size: 12px;
+			    }
+		    }
+			.career__info {
+				// width: 70%;
+				width: 100%;
+				// margin: 0 auto;
+				// padding: 0px 40px 0px 0px;
+				form {
+					// margin-top: 10px;
+					input {
+						// width: 90%;
+					}
+					.form_info {
+						width: 90%;
+						margin: 0 auto;
+					}
+				}
+				.form-control {
+					height: 38px;
+					// width: 90%;
+					margin: 0 auto;
+					font-size: 12px;
+				}
+				.css-10nd86i {
+					    position: relative;
+					    box-sizing: border-box;
+					    // width: 90%;
+					    margin: 0 auto;
+					    font-size: 12px;
+					}
+				.career__text {
+					// line-height: 25vh;
+					font-size: 16px;
+					color: #f4761a;
+					margin-bottom: 20px;
+					// text-align: center;
+				}
+				.heading {
+					line-height: 25px;
+					padding-top: 10px;
+					font-size: 14px;
+					font-weight: bold;
+					color: white;
+					// margin-left: 18px;
+				}
+				.upload__section {
+					padding: 10px 20px;
+					color: white;
+					.cfile__btn {
+						margin-left: 10px;
+						color: #ef6537;
+						font-size: 12px;
+						//border-radius: 20px 20px 20px 20px;
+					}
+					input[type=file] {
+					    display: inline;
+					    background: #fefefe;
+					    padding: 5px 10px;
+					    border-radius: 25px;
+					    border: 1px solid;
+					    margin-left: 15px;
+					    width: 100%;
+					    text-align: center;
+					}
+					.text {
+					    margin-top: 4px;
+					    font-size: 12px;
+					    //margin-left: 18px;
+					}
+				}
+				.btn__sbt {
+					background: white;
+					padding: 10px 20px;
+					color: #ef6537;
+					// border-color: none;
+					border: none;
+					margin-left: -30px;
+					&:hover {
+				    	// margin: 10px;
+					    color: #ef6537;
+					    // padding: 5px 25px;
+						// font-size: 16px;
+					    background: #fff;
+					    /* background-color: #fff; */
+					    border: none;
+					   // border-radius: 20px;
+					    box-shadow: 0px 0px 8px 1px #000;
+				    }	
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.career__wrapper {
+		height: auto;
+		.current___vacancies {
+			display: none;
+		}
+	}
+	.career__wrapper .career__content .career__desc {
+	    margin: 0 auto;
+	    text-align: center;
+	    width: 100%;
+	    line-height: 25px;
+	}
+	.career__wrapper .career__content .career__info__wrapper {
+		height: auto;
+		padding: 20px;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info {
+		width: 100%;
+	    margin: 0 auto;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info .career__text {
+		line-height: 50px;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info .upload__section .cfile__btn {
+		display: inline-block;
+	    // width: 50%;
+	    margin-top: 10px;
+	    vertical-align: baseline;
+	    // margin-left: 20px;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info .heading {
+		// margin-left: 24px;
+	}
+	.global__wrapper .connect__wrapper .location_section .address_text .office_add {
+		height: 200px;
+	}
+}
+@media only screen and (max-width:992px) {
+	.global__wrapper .connect__wrapper .location_section .address_text .office_add {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.global__wrapper .connect__wrapper .location_section .orange__divider {
+		display: none;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info .heading {
+		// margin-left: 30px;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info form .form_info {
+		width: 100%;
+	}
+	.career__wrapper .career__content .career__info__wrapper .career__info .upload__section .text {
+		margin-left: 0px;
+	}
+}

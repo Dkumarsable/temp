@@ -1,0 +1,577 @@
+@import '../css/variables.scss';
+
+.w3-animate-bottom {
+  animation: animatebottom 1s;
+}
+.body__overflow__none {
+  // display: none;
+  // .element::-webkit-scrollbar { width: 0 !important }
+  // .element { overflow: -moz-scrollbars-none; }
+  // .element { -ms-overflow-style: none; }
+  .loader__class {
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    padding-top: 40vh;
+    z-index: 15;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    // z-index: 10;
+    div {
+      margin: 0 auto;
+    }
+  }
+  .page-layout__viewport {
+    &__middle_content {
+      overflow: hidden;
+      height:200vh;
+    }
+  }
+}
+div:focus {
+  outline: unset !important;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: -2px;
+    outline: none;
+    outline-offset: unset;
+}
+.main__wrapper {
+  margin-top: -100px;
+}
+.team__main__wrapper {
+  margin-top: -20px;
+}
+.global__heading {
+  // color: #ef6537;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 3;
+  // text-decoration: underline;
+}
+.global__wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  // background: url("http://www.alpexsolar.com/assets/elements/yellow-bg.svg");
+  &:before {
+    background-color: white;
+    background-size: cover;
+    z-index: -1;
+    content: " ";
+    position: fixed;
+    // background: url('http://www.alpexsolar.com/assets/elements/final-background.svg') no-repeat center center;
+    will-change: transform;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    // z-index: 5;
+    background-size: cover;
+  }
+}
+.global__heading__white {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+}
+.page-layout__viewport {
+  // padding-top: 4rem;
+  font-family: Lato;
+  position: relative;
+  font-weight: lighter;
+  overflow: hidden;
+  // z-index: 5;
+  .fullscreen {
+    .about_first_panel_wrapper {
+      padding-top: 0;
+    }
+  }
+  .hmb {
+    cursor: pointer;
+  }
+  .background__wrapper {
+    position: relative;
+    // opacity: 0.7;
+    .background__texture {
+      height: 100vh;
+      position: fixed;
+      z-index: 2;
+      width: 100%;
+      background: url('http://www.alpexsolar.com/assets/elements/final-background.svg') no-repeat center center;
+      background-size: cover;
+    }
+  }
+  .enguire__now__overlay {
+    position: fixed;
+    min-height: 100%;
+    z-index: 13;
+    cursor: pointer;
+    .enguire__now__border {
+      position: absolute;
+      bottom: 8%;
+      /* z-index: 999999; */
+      background: white;
+      width: 70px;
+      height: 70px;
+      font-size: 50px;
+      text-align: center;
+      line-height: 90px;
+      color: $brand_color;
+      border-radius: 50%;
+      left: 20px;
+      box-shadow: 1px 2px 11px 1px #ccc;
+      img {
+        width: 40px;
+        margin: 0 auto;
+        padding: 15px 0px;
+      }
+    }
+  }
+  &__header {
+    position: relative;
+    .menu__bar {
+    position: absolute;
+      /* background: green; */
+      width: 100%;
+      background: transparent;
+      height: 140px;
+      z-index: 6;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .header__logo {
+  }
+  .social__header {
+  }
+  &__left_content {
+    position: fixed;
+    top: 50vh;
+    left: 0;
+    z-index: 2;
+  }
+  &__middle_content {
+    // height: 100vh;
+    // line-height: 100vh;
+  }
+  &__right_content {
+  width: 12%;
+  // height: 100vh;
+    top: 20vh;
+  position: fixed;
+  right: 0;
+  }
+  &__footer_content_mobile {
+    display: none;
+  }
+  &__footer_content {
+    // height: 80vh;
+    position: relative;
+      z-index: 3;
+        font-family: lato;
+      background: #f1eded;
+      color: #000;
+      /* padding: 12px 10px; */
+      line-height: 45px;
+      padding: 0 20px;
+      font-size: 12px;
+    .left__content {
+      text-align: left;
+    }
+    .middle__content {
+      text-align: center;
+      // line-height: 30px
+    }
+    .right__content {
+      text-align: right;
+       > img {
+        width: 30px;
+        margin-left: 10px;
+       }
+    }
+  }
+}
+.page-layout__viewport__footer_content {
+      // height: 80vh;
+        font-family: lato;
+      background: #f1eded;
+      color: black;
+      /* padding: 12px 10px; */
+      line-height: 45px;
+      padding: 0 20px;
+      font-size: 12px;
+    .left__content {
+      text-align: left;
+    }
+    .middle__content {
+      text-align: center;
+      // line-height: 30px
+    }
+    .right__content {
+      text-align: right;
+       > img {
+        width: 30px;
+        margin-left: 10px;
+       }
+    }
+  }
+.page-layout__viewport__social__header {
+  
+}
+.not_found {
+  height: 50vh;
+  text-align: center;
+  margin-top: 20vh;
+  color: grey;
+}
+@media only screen and (max-width:1230px) {
+    /* For mobile phones: */
+    .page-layout__viewport__footer_content {
+      // display: none;
+      font-size: 12px;
+      font-family: lato;
+      background: #f1eded;
+      color: #000;
+      /* padding: 12px 10px; */
+      line-height: 25px;
+      padding: 4px 20px;
+    }
+    .page-layout__viewport__footer_content .left__content {
+      text-align: left;
+    }
+    .page-layout__viewport__footer_content .right__content {
+      text-align: right;
+    }
+    .page-layout__viewport__header {
+    .hmb {
+          line-height: 140px;
+          margin-right: 40px;
+          font-size: 35px;
+    }
+    .mobile__logo {
+        width: 60px;
+        float: left;
+        /* line-height: 141px; */
+        /* padding: 0px; */
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+  }
+    .page-layout__viewport .header__logo {
+      padding: 20px;
+      z-index: 2;
+      display: inline-block;
+  }
+    .page-layout__viewport__footer_content_mobile {
+    font-family: lato;
+    background: #000;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 10px;
+    .left__content {
+        padding: 10px 10px 0px;
+      text-align: center;
+      margin-top: 3%;
+    }
+    .middle__content {
+      padding: 10px 42px 0px;
+      text-align: center;
+      // line-height: 30px
+    }
+    .right__content {
+      text-align: center;
+      padding: 10px 10px 0px;
+       > img {
+        width: 30px;
+        margin-left: 10px;
+       }
+       margin-top: 0%;
+    }
+    }
+    .page-layout__viewport__social__header {
+      display: none;
+    }
+    .page-layout__viewport {
+      &__header {
+      text-align: center;
+      }
+    }
+}
+@media only screen and (max-width:767px) {
+  .page-layout__viewport__footer_content {
+    .left__content {
+      text-align: center;
+    }
+    .right__content {
+      text-align: center;
+    }
+  }
+}
+@media only screen and (max-width:992px) {
+  .page-layout__viewport__header {
+    .hmb {
+          line-height: 140px;
+          margin-right: 40px;
+          font-size: 35px;
+    }
+    .mobile__logo {
+        width: 60px;
+        float: left;
+        /* line-height: 141px; */
+        /* padding: 0px; */
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+  }
+  .page-layout__viewport .header__logo {
+      padding: 20px;
+      z-index: 2;
+      display: inline-block;
+  }
+  .page-layout__viewport {
+    .left__content {
+      text-align: left;
+      // margin-top: 3%;
+    }
+    .right__content {
+      text-align: right;
+    }
+    &__middle_content {
+      width: 100%;
+      .global__wrapper {
+        .global__heading {
+         // padding-top: 0px;
+        }
+      }
+    }
+  }
+  .page-layout__viewport__middle_content .global__wrapper .global__heading .ornament > img {
+    width: 100px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .page-layout__viewport {
+    .left__content {
+      text-align: center;
+      // margin-top: 3%;
+    }
+    .right__content {
+      text-align: center;
+    }
+  }
+}
+.w3-animate-zoom {
+    animation: animatezoom 1.5s;
+}
+.w3-animate-left {
+    animation: animateleft 2s;
+}
+.w3-animate-right {
+    position: relative;
+    animation: animateright 2s;
+}
+.w3-animate-opacity {
+    animation: opac 1s;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
+
+.css-typing p {
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 100%;
+  -webkit-animation: type 5s steps(120, end), blink .75s step-end infinite;
+  animation: type 5s steps(120, end), blink .7s step-end infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 3s steps(120, end);
+  animation: type2 3s steps(120, end), blink .7s step-end infinite;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  // from, to { border-color: transparent }
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  // from, to { border-color: transparent }
+  50% {
+    border-color: tranparent;
+  }
+}
+
+.mk-page-section-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    z-index: 2;
+}
+.mk-video-color-mask, .mk-video-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.mk-page-section .background-clipper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip: rect(auto auto auto auto);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.background-layer-holder {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+#background-layer--36 .mk-color-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#background-layer--36 {
+    background: url("http://www.alpexsolar.com/assets/elements/yellow-bg.svg");
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}

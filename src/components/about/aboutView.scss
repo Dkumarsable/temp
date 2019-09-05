@@ -1,0 +1,19 @@
+.global__wrapper{
+	.about_wrapper{
+		margin-top: 150px;
+		.about_content{
+			.text_section{
+				width: 70%;
+				margin: 0 auto;
+				font-size: 18px;
+				.subheading{
+					padding: 30px 0 10px;
+					
+				}
+				.subtext{
+					padding: 10px 0;
+				}
+			}
+		}
+	}
+}
